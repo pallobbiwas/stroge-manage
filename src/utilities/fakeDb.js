@@ -20,5 +20,19 @@ const addToCart = (id) => {
   localStorage.setItem("cart-order", JSON.stringify(shoppingCart));
 };
 
-export { addToCart };
+//delete to cart
+
+const delteFromCart = (id) => {
+  const getCart = localStorage.getItem("cart-order");
+  if (getCart) {
+    const card = JSON.parse(getCart);
+    if (id in card) {
+      console.log("delete");
+      delete card[id];
+      localStorage.setItem("cart-order", JSON.stringify(card));
+    }
+  }
+};
+
+export { addToCart, delteFromCart };
 
