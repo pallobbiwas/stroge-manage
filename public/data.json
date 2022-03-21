@@ -1,0 +1,44 @@
+[
+  {
+    "id": "6237f5a58c430ac561e79c14",
+    "price": 0,
+    "name": "Cooley Beasley",
+    "gender": "male"
+  },
+  {
+    "id": "6237f5a5da4d9b8b3fb0f321",
+    "price": 1,
+    "name": "Franks Michael",
+    "gender": "male"
+  },
+  {
+    "id": "6237f5a5bcfcb86bf45984c7",
+    "price": 2,
+    "name": "Ford Kirby",
+    "gender": "male"
+  },
+  {
+    "id": "6237f5a5e072e9701f6964fb",
+    "price": 3,
+    "name": "Latonya Mcleod",
+    "gender": "female"
+  },
+  {
+    "id": "6237f5a5013b0eed94808f5a",
+    "price": 4,
+    "name": "Day Dominguez",
+    "gender": "male"
+  },
+  {
+    "id": "6237f5a55ee56ae47b9927f0",
+    "price": 5,
+    "name": "Robertson Guthrie",
+    "gender": "male"
+  },
+  {
+    "id": "6237f5a54fea1e505acb5bbd",
+    "price": 6,
+    "name": "Robbie Patrick",
+    "gender": "female"
+  }
+]
