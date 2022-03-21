@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Coustomer from "../Coustomer/Coustomer";
+import "./Coustomers.css";
 
 const Coustomers = () => {
   // set sate
@@ -13,9 +14,11 @@ const Coustomers = () => {
   return (
     <div>
       <h2>hello</h2>
-      {coustomers.map((coustomer) => (
-        <Coustomer key={coustomer.id} coustomer={coustomer}></Coustomer>
-      ))}
+      <div className="container">
+        {coustomers.map((coustomer) => (
+          <Coustomer key={coustomer.id} coustomer={coustomer}></Coustomer>
+        ))}
+      </div>
     </div>
   );
 };

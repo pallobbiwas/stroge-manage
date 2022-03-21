@@ -1,5 +1,5 @@
-import './App.css';
-import Coustomers from './component/Coustomers/Coustomers';
+import "./App.css";
+import Coustomers from "./component/Coustomers/Coustomers";
 
 function App() {
   return (
